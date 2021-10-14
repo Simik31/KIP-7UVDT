@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="64915708-D8CA-1131-7E34-6D134CAF8487" name="Pojistovna">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-12 10:51:39 UTC</createdTime>
+<ownerDesignName>seminar_2021_10_12</ownerDesignName>
+<engineerTo>
+<item key="27E3CE51-AFD9-97EA-D0EF-70AA616CDCF1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CisloPojistovny" id="A64BBBB5-E24E-29D5-DDCE-96FC4C8FD22E">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-12 11:00:01 UTC</createdTime>
+<ownerDesignName>seminar_2021_10_12</ownerDesignName>
+<engineerTo>
+<item key="27E3CE51-AFD9-97EA-D0EF-70AA616CDCF1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nazev" id="FE0D0D7C-35F3-2C9C-7E74-D3C11ACEBC3A">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-12 10:51:47 UTC</createdTime>
+<ownerDesignName>seminar_2021_10_12</ownerDesignName>
+<engineerTo>
+<item key="27E3CE51-AFD9-97EA-D0EF-70AA616CDCF1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Adresa" id="FD3963FB-F77E-1111-FC35-9B62C6B4786B">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-12 10:51:51 UTC</createdTime>
+<ownerDesignName>seminar_2021_10_12</ownerDesignName>
+<engineerTo>
+<item key="27E3CE51-AFD9-97EA-D0EF-70AA616CDCF1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<structuredType>47E390DE-0671-C4B1-8428-0F45CBEE18F8</structuredType>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="5DF9698F-9799-D910-E134-472F7CD6DB1E">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-12 11:13:42 UTC</createdTime>
+<ownerDesignName>seminar_2021_10_12</ownerDesignName>
+<engineerTo>
+<item key="27E3CE51-AFD9-97EA-D0EF-70AA616CDCF1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefon" id="44DDD9AD-FC10-7E2E-EDD1-B925257ED2C3">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-12 11:13:49 UTC</createdTime>
+<ownerDesignName>seminar_2021_10_12</ownerDesignName>
+<engineerTo>
+<item key="27E3CE51-AFD9-97EA-D0EF-70AA616CDCF1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="45CA0F72-901C-CB83-698C-E0EB2A621D1D" name="Pojistovna PK">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-12 10:55:21 UTC</createdTime>
+<ownerDesignName>seminar_2021_10_12</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="27E3CE51-AFD9-97EA-D0EF-70AA616CDCF1" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A64BBBB5-E24E-29D5-DDCE-96FC4C8FD22E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

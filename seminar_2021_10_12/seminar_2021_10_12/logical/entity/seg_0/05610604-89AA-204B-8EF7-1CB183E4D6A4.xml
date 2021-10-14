@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="05610604-89AA-204B-8EF7-1CB183E4D6A4" name="Recept">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-12 11:17:56 UTC</createdTime>
+<ownerDesignName>seminar_2021_10_12</ownerDesignName>
+<engineerTo>
+<item key="27E3CE51-AFD9-97EA-D0EF-70AA616CDCF1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PredepsanyLek" id="ED2679DA-F8BA-78C3-4736-D75DE85982B9">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-12 11:19:31 UTC</createdTime>
+<ownerDesignName>seminar_2021_10_12</ownerDesignName>
+<engineerTo>
+<item key="27E3CE51-AFD9-97EA-D0EF-70AA616CDCF1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PlatnostDo" id="C372BF66-F0FB-6B07-3FF4-B4502C0DB5C3">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-12 11:29:06 UTC</createdTime>
+<ownerDesignName>seminar_2021_10_12</ownerDesignName>
+<engineerTo>
+<item key="27E3CE51-AFD9-97EA-D0EF-70AA616CDCF1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RodneCislo" id="8A5DD64F-F939-9CF3-84B3-5A27C77CF745">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-12 11:20:08 UTC</createdTime>
+<generatorID>FEB63979-A4B7-7745-FF19-81C5CF351B31</generatorID>
+<ownerDesignName>seminar_2021_10_12</ownerDesignName>
+<engineerTo>
+<item key="27E3CE51-AFD9-97EA-D0EF-70AA616CDCF1" value="true"/>
+</engineerTo>
+<referedAttribute>A9FD3D4F-13B4-3763-67C1-09A8FAD6E3E1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ICO" id="F8D02296-FF21-4550-BA2E-A18302D9A471">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-12 11:20:08 UTC</createdTime>
+<generatorID>FEB63979-A4B7-7745-FF19-81C5CF351B31</generatorID>
+<ownerDesignName>seminar_2021_10_12</ownerDesignName>
+<engineerTo>
+<item key="27E3CE51-AFD9-97EA-D0EF-70AA616CDCF1" value="true"/>
+</engineerTo>
+<referedAttribute>A61B4E1E-3AB8-16DF-2D40-8D27D59EA7BB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Datum" id="C0C942AF-9095-253F-E331-F166E935F911">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-12 11:20:08 UTC</createdTime>
+<generatorID>FEB63979-A4B7-7745-FF19-81C5CF351B31</generatorID>
+<ownerDesignName>seminar_2021_10_12</ownerDesignName>
+<engineerTo>
+<item key="27E3CE51-AFD9-97EA-D0EF-70AA616CDCF1" value="true"/>
+</engineerTo>
+<referedAttribute>6863DD74-D83D-DB2C-7480-F0F62497FA8D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3922C949-99DC-6A46-5E37-7FC19CB75324" name="Recept PK">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-12 11:18:10 UTC</createdTime>
+<ownerDesignName>seminar_2021_10_12</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="27E3CE51-AFD9-97EA-D0EF-70AA616CDCF1" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8A5DD64F-F939-9CF3-84B3-5A27C77CF745</attributeRef>
+<attributeRef>F8D02296-FF21-4550-BA2E-A18302D9A471</attributeRef>
+<attributeRef>C0C942AF-9095-253F-E331-F166E935F911</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

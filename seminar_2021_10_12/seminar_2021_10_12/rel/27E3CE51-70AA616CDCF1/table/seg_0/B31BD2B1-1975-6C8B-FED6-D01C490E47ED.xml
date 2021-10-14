@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B31BD2B1-1975-6C8B-FED6-D01C490E47ED" name="Recept">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-12 11:19:46 UTC</createdTime>
+<generatorID>05610604-89AA-204B-8EF7-1CB183E4D6A4</generatorID>
+<ownerDesignName>seminar_2021_10_12</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PredepsanyLek" id="67C5B569-89FB-0167-4493-75F9D798656D">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-12 11:19:46 UTC</createdTime>
+<generatorID>ED2679DA-F8BA-78C3-4736-D75DE85982B9</generatorID>
+<ownerDesignName>seminar_2021_10_12</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Navsteva_Pacient_RodneCislo" id="9174A119-87F3-4BA3-9541-74BCFEF638A2">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-12 11:20:35 UTC</createdTime>
+<generatorID>8A5DD64F-F939-9CF3-84B3-5A27C77CF745</generatorID>
+<ownerDesignName>seminar_2021_10_12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D7B69D16-5E18-EFBC-6A7A-F0C60F35D20E" referredColumn="A0B96C11-86FF-9D3E-54A6-B0D25960858C"/>
+</associations>
+</Column>
+<Column name="Navsteva_Lekar_ICO" id="AC1BF600-3408-3B27-B8EB-5F8C6C01117C">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-12 11:20:35 UTC</createdTime>
+<generatorID>F8D02296-FF21-4550-BA2E-A18302D9A471</generatorID>
+<ownerDesignName>seminar_2021_10_12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D7B69D16-5E18-EFBC-6A7A-F0C60F35D20E" referredColumn="F9A2871D-331A-7AA7-6F2C-5721B84F9B21"/>
+</associations>
+</Column>
+<Column name="Navsteva_Datum" id="117F33A0-202B-BD38-BF82-8B1932803C2E">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-12 11:20:35 UTC</createdTime>
+<generatorID>C0C942AF-9095-253F-E331-F166E935F911</generatorID>
+<ownerDesignName>seminar_2021_10_12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D7B69D16-5E18-EFBC-6A7A-F0C60F35D20E" referredColumn="B05799B0-1B07-51B8-632B-CF992A1EFCF4"/>
+</associations>
+</Column>
+<Column name="PlatnostDo" id="F8C15D80-0365-3383-6431-063FD0630759">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-12 11:29:28 UTC</createdTime>
+<generatorID>C372BF66-F0FB-6B07-3FF4-B4502C0DB5C3</generatorID>
+<ownerDesignName>seminar_2021_10_12</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2E0E37E7-7347-9239-895E-1FD24979CB36" name="Recept_PK">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-12 11:19:46 UTC</createdTime>
+<generatorID>3922C949-99DC-6A46-5E37-7FC19CB75324</generatorID>
+<ownerDesignName>seminar_2021_10_12</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9174A119-87F3-4BA3-9541-74BCFEF638A2"/>
+<colUsage columnID="AC1BF600-3408-3B27-B8EB-5F8C6C01117C"/>
+<colUsage columnID="117F33A0-202B-BD38-BF82-8B1932803C2E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="14AF59F9-8492-1734-3344-F9195C3E75B8" name="Recept_Navsteva_FK">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-12 11:19:46 UTC</createdTime>
+<generatorID>FEB63979-A4B7-7745-FF19-81C5CF351B31</generatorID>
+<ownerDesignName>seminar_2021_10_12</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9174A119-87F3-4BA3-9541-74BCFEF638A2"/>
+<colUsage columnID="AC1BF600-3408-3B27-B8EB-5F8C6C01117C"/>
+<colUsage columnID="117F33A0-202B-BD38-BF82-8B1932803C2E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

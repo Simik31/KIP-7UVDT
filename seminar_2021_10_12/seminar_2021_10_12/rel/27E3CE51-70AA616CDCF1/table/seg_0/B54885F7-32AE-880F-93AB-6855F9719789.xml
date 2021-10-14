@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B54885F7-32AE-880F-93AB-6855F9719789" name="Pacient">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-12 11:06:03 UTC</createdTime>
+<generatorID>B733831B-A216-64B6-FD2C-B92EAE19EDFE</generatorID>
+<ownerDesignName>seminar_2021_10_12</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RodneCislo" id="CB732827-F036-DCFD-2CE9-C686FBDE7635">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-12 11:06:03 UTC</createdTime>
+<generatorID>32F8D960-8750-CF44-B61E-37DB61388898</generatorID>
+<ownerDesignName>seminar_2021_10_12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Jmeno" id="1506B84F-F1BC-8254-91C7-FACE79F1EF96">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-12 11:06:03 UTC</createdTime>
+<generatorID>524EE2EF-11CB-F70D-EC6C-4973C640D776</generatorID>
+<ownerDesignName>seminar_2021_10_12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Prijmeni" id="D9FC35F7-F4CE-F527-6141-98A846A50BF2">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-12 11:06:03 UTC</createdTime>
+<generatorID>42872169-F941-B1B6-EF71-7BB25C97D6D8</generatorID>
+<ownerDesignName>seminar_2021_10_12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="32A895E1-E7BD-3CA2-4BF8-EF11F6E74AED">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-12 11:06:03 UTC</createdTime>
+<generatorID>E0EC3697-5B41-C735-D9C0-9CB229254893</generatorID>
+<ownerDesignName>seminar_2021_10_12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefon" id="0E9D62D6-272C-810C-3C7A-BD05FDF342C8">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-12 11:06:03 UTC</createdTime>
+<generatorID>9A1068D0-EFA4-F0EC-F6A3-D3F8612B8B83</generatorID>
+<ownerDesignName>seminar_2021_10_12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pojistovna_CisloPojistovny" id="C5F99778-2747-DBE7-9BAD-E2E407FCACB5">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-12 11:06:03 UTC</createdTime>
+<generatorID>2A2A91ED-F69B-A049-F893-1B199FAF4CCA</generatorID>
+<ownerDesignName>seminar_2021_10_12</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="90AF65A1-9FED-19E5-E818-19D5738C4EA3" referredColumn="7867745B-7A6F-278D-3523-658785C6B0E2"/>
+</associations>
+</Column>
+<Column name="CisloPojistovny" id="5120A527-7CDC-9314-D1C2-0791714741A2">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-12 11:19:46 UTC</createdTime>
+<generatorID>685B4E7F-B76F-02BE-447E-7C682C1BEF04</generatorID>
+<ownerDesignName>seminar_2021_10_12</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A4000F22-5A5A-52CA-3EE0-405F23F392A5" name="Pacient_PK">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-12 11:06:03 UTC</createdTime>
+<generatorID>FF3C1C69-40F2-96B8-CC7B-8748E9223869</generatorID>
+<ownerDesignName>seminar_2021_10_12</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CB732827-F036-DCFD-2CE9-C686FBDE7635"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2177DDC1-2E67-A36D-2289-570DC8F2ADA6" name="Pacient_Pojistovna_FK">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-12 11:06:03 UTC</createdTime>
+<generatorID>EB1810C1-3D56-1D1A-C667-FFE5988B0F4D</generatorID>
+<ownerDesignName>seminar_2021_10_12</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C5F99778-2747-DBE7-9BAD-E2E407FCACB5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

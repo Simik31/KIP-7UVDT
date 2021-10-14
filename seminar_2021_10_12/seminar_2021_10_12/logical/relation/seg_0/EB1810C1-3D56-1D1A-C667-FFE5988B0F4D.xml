@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Pojistuje" directorySegmentName="seg_0" id="EB1810C1-3D56-1D1A-C667-FFE5988B0F4D">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-12 10:54:28 UTC</createdTime>
+<ownerDesignName>seminar_2021_10_12</ownerDesignName>
+<engineerTo>
+<item key="27E3CE51-AFD9-97EA-D0EF-70AA616CDCF1" value="true"/>
+</engineerTo>
+<sourcePk>45CA0F72-901C-CB83-698C-E0EB2A621D1D</sourcePk>
+<targetPk>FF3C1C69-40F2-96B8-CC7B-8748E9223869</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>64915708-D8CA-1131-7E34-6D134CAF8487</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B733831B-A216-64B6-FD2C-B92EAE19EDFE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

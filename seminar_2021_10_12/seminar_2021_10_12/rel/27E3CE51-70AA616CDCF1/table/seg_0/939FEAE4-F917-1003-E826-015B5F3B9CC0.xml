@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="939FEAE4-F917-1003-E826-015B5F3B9CC0" name="Diagnozy">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-12 11:27:19 UTC</createdTime>
+<generatorID>E584E209-22D0-57AC-E5C3-94AEA0ED7C4D</generatorID>
+<ownerDesignName>seminar_2021_10_12</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdDiagnozy" id="B1082066-D9BF-7784-7FD2-039163FAA7D9">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-12 11:27:19 UTC</createdTime>
+<generatorID>7E5A4F1A-F4B6-2269-2E73-81EAEEC62D8D</generatorID>
+<ownerDesignName>seminar_2021_10_12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nazev" id="4FE6DF4B-7B5A-F5BB-CFC4-D0F9F999ECA9">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-12 11:27:19 UTC</createdTime>
+<generatorID>AB19C2D0-5DC2-A944-B999-A95B74881824</generatorID>
+<ownerDesignName>seminar_2021_10_12</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Priznaky" id="76FD3BE4-5C6A-80A1-B3D6-30EFA17529CD">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-12 11:27:19 UTC</createdTime>
+<generatorID>E1568F23-418D-998E-3CA2-D287AC964324</generatorID>
+<ownerDesignName>seminar_2021_10_12</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Navsteva_Pacient_RodneCislo" id="6FA5B664-F09A-620F-EFF4-AA3E2077E603">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-12 11:29:28 UTC</createdTime>
+<generatorID>F8C91D28-ABA5-1231-4C5E-85E4D094AEE4</generatorID>
+<ownerDesignName>seminar_2021_10_12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Navsteva_Lekar_ICO" id="D484F03F-0A48-BD31-8E26-1A14F0D92365">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-12 11:29:28 UTC</createdTime>
+<generatorID>29843E41-F067-4434-81D0-E9360D8653E2</generatorID>
+<ownerDesignName>seminar_2021_10_12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Navsteva_Datum" id="B592F707-F6AE-33BC-4116-4D6B13DBADF6">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-12 11:29:28 UTC</createdTime>
+<generatorID>5F96476A-E86E-354E-D983-DBBCC88A4BA3</generatorID>
+<ownerDesignName>seminar_2021_10_12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A03450C5-5BBD-47B8-6213-EAEB589807DE" name="Diagnozy_PK">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-12 11:27:19 UTC</createdTime>
+<generatorID>1610F550-93AF-D9A2-2151-5AB5CC1E05C8</generatorID>
+<ownerDesignName>seminar_2021_10_12</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B1082066-D9BF-7784-7FD2-039163FAA7D9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7FBB00E4-CAD0-D17F-8EAB-5182C7D70CB6" name="Diagnozy__IDX">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-12 11:29:28 UTC</createdTime>
+<ownerDesignName>seminar_2021_10_12</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>631D3BD0-E7B6-5A8B-B08A-9DFAAF60219A</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="6FA5B664-F09A-620F-EFF4-AA3E2077E603"/>
+<colUsage columnID="D484F03F-0A48-BD31-8E26-1A14F0D92365"/>
+<colUsage columnID="B592F707-F6AE-33BC-4116-4D6B13DBADF6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

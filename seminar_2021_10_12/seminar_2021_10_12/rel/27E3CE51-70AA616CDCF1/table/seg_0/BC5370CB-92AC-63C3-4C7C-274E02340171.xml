@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BC5370CB-92AC-63C3-4C7C-274E02340171" name="Navsteva">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-12 11:06:03 UTC</createdTime>
+<generatorID>9C732006-EC7A-CC22-5BFE-D17BB9C4A92A</generatorID>
+<ownerDesignName>seminar_2021_10_12</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DatumKontroly" id="172CAFBD-2755-4DD5-3792-6F4ECE49A3D6">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-12 11:06:03 UTC</createdTime>
+<generatorID>CECA2F99-76FA-C661-9DEB-0E8E79A9BD35</generatorID>
+<ownerDesignName>seminar_2021_10_12</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pacient_RodneCislo" id="A0B96C11-86FF-9D3E-54A6-B0D25960858C">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-12 11:06:03 UTC</createdTime>
+<generatorID>A9FD3D4F-13B4-3763-67C1-09A8FAD6E3E1</generatorID>
+<ownerDesignName>seminar_2021_10_12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="27D5F1B5-CC3A-3B93-030C-09CAC90925ED" referredColumn="CB732827-F036-DCFD-2CE9-C686FBDE7635"/>
+</associations>
+</Column>
+<Column name="Lekar_ICO" id="F9A2871D-331A-7AA7-6F2C-5721B84F9B21">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-12 11:06:03 UTC</createdTime>
+<generatorID>A61B4E1E-3AB8-16DF-2D40-8D27D59EA7BB</generatorID>
+<ownerDesignName>seminar_2021_10_12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5C192513-B6C1-8AD4-E094-0A2F704DC2F7" referredColumn="77BBAAA3-4F9B-F6C6-F0EB-870285745797"/>
+</associations>
+</Column>
+<Column name="Datum" id="B05799B0-1B07-51B8-632B-CF992A1EFCF4">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-12 11:13:12 UTC</createdTime>
+<generatorID>6863DD74-D83D-DB2C-7480-F0F62497FA8D</generatorID>
+<ownerDesignName>seminar_2021_10_12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Potize" id="6E5D7B75-EF41-B3D6-FAD8-540D4971ECB4">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-12 11:13:12 UTC</createdTime>
+<generatorID>6EB4EF8F-5E7D-070F-A1A1-E7CAC5F499DC</generatorID>
+<ownerDesignName>seminar_2021_10_12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Diagnozy_IdDiagnozy" id="3D02C0E7-0F18-15DF-ADA7-D670B9232380">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-12 11:27:19 UTC</createdTime>
+<generatorID>16E39D57-E337-BC41-FC0D-EEFF8F644CBF</generatorID>
+<ownerDesignName>seminar_2021_10_12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="24582CF5-5626-760F-602F-C35A675227C1" name="Navsteva_PK">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-12 11:06:03 UTC</createdTime>
+<generatorID>9B9D14F4-9916-4377-6FFC-280655BEF40D</generatorID>
+<ownerDesignName>seminar_2021_10_12</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A0B96C11-86FF-9D3E-54A6-B0D25960858C"/>
+<colUsage columnID="F9A2871D-331A-7AA7-6F2C-5721B84F9B21"/>
+<colUsage columnID="B05799B0-1B07-51B8-632B-CF992A1EFCF4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="373DEEA3-78B6-F1CC-0CAF-9B0DF37BB67E" name="Navsteva__IDX">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-12 11:27:19 UTC</createdTime>
+<ownerDesignName>seminar_2021_10_12</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>631D3BD0-E7B6-5A8B-B08A-9DFAAF60219A</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="3D02C0E7-0F18-15DF-ADA7-D670B9232380"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="46D1153F-F229-12CF-724B-0CA57D060D85" name="Navsteva_Pacient_FK">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-12 11:06:03 UTC</createdTime>
+<generatorID>4D73F63E-FC5B-E031-D92C-7E73FD1A0CCE</generatorID>
+<ownerDesignName>seminar_2021_10_12</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A0B96C11-86FF-9D3E-54A6-B0D25960858C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7C30B290-A775-094A-E819-FB79E26C37C1" name="Navsteva_Lekar_FK">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-12 11:06:04 UTC</createdTime>
+<generatorID>08611E4E-72BF-6A75-62E9-4339C93E6DAA</generatorID>
+<ownerDesignName>seminar_2021_10_12</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F9A2871D-331A-7AA7-6F2C-5721B84F9B21"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

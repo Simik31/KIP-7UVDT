@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9C732006-EC7A-CC22-5BFE-D17BB9C4A92A" name="Navsteva">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-12 11:03:10 UTC</createdTime>
+<ownerDesignName>seminar_2021_10_12</ownerDesignName>
+<engineerTo>
+<item key="27E3CE51-AFD9-97EA-D0EF-70AA616CDCF1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Datum" id="6863DD74-D83D-DB2C-7480-F0F62497FA8D">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-12 11:07:44 UTC</createdTime>
+<ownerDesignName>seminar_2021_10_12</ownerDesignName>
+<engineerTo>
+<item key="27E3CE51-AFD9-97EA-D0EF-70AA616CDCF1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Potize" id="6EB4EF8F-5E7D-070F-A1A1-E7CAC5F499DC">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-12 11:08:36 UTC</createdTime>
+<ownerDesignName>seminar_2021_10_12</ownerDesignName>
+<engineerTo>
+<item key="27E3CE51-AFD9-97EA-D0EF-70AA616CDCF1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DatumKontroly" id="CECA2F99-76FA-C661-9DEB-0E8E79A9BD35">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-12 11:03:54 UTC</createdTime>
+<ownerDesignName>seminar_2021_10_12</ownerDesignName>
+<engineerTo>
+<item key="27E3CE51-AFD9-97EA-D0EF-70AA616CDCF1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RodneCislo" id="A9FD3D4F-13B4-3763-67C1-09A8FAD6E3E1">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-12 11:04:19 UTC</createdTime>
+<generatorID>4D73F63E-FC5B-E031-D92C-7E73FD1A0CCE</generatorID>
+<ownerDesignName>seminar_2021_10_12</ownerDesignName>
+<engineerTo>
+<item key="27E3CE51-AFD9-97EA-D0EF-70AA616CDCF1" value="true"/>
+</engineerTo>
+<referedAttribute>32F8D960-8750-CF44-B61E-37DB61388898</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ICO" id="A61B4E1E-3AB8-16DF-2D40-8D27D59EA7BB">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-12 11:04:57 UTC</createdTime>
+<generatorID>08611E4E-72BF-6A75-62E9-4339C93E6DAA</generatorID>
+<ownerDesignName>seminar_2021_10_12</ownerDesignName>
+<engineerTo>
+<item key="27E3CE51-AFD9-97EA-D0EF-70AA616CDCF1" value="true"/>
+</engineerTo>
+<referedAttribute>2B3E8744-65E3-F1F4-C331-80C378881E28</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9B9D14F4-9916-4377-6FFC-280655BEF40D" name="Navsteva PK">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-12 11:04:03 UTC</createdTime>
+<ownerDesignName>seminar_2021_10_12</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="27E3CE51-AFD9-97EA-D0EF-70AA616CDCF1" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A9FD3D4F-13B4-3763-67C1-09A8FAD6E3E1</attributeRef>
+<attributeRef>A61B4E1E-3AB8-16DF-2D40-8D27D59EA7BB</attributeRef>
+<attributeRef>6863DD74-D83D-DB2C-7480-F0F62497FA8D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
