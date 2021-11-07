@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Skupina_Student" directorySegmentName="seg_0" id="FDB9025E-5B61-3D2E-C6A7-7CD29627B316">
+<createdBy>student</createdBy>
+<createdTime>2021-10-05 14:21:12 UTC</createdTime>
+<ownerDesignName>skola</ownerDesignName>
+<engineerTo>
+<item key="560ED63D-1CEC-95CD-45AA-C036466D1DA6" value="true"/>
+</engineerTo>
+<sourcePk>45FF1B84-CA67-288B-B217-5C25B2F48B21</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>je tvořena</nameOnSource>
+<nameOnTarget>patří do</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3BF67FC4-3C5B-3A5C-8210-A13403E4D19A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>CDF78330-734D-7994-0765-012B89843B7D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

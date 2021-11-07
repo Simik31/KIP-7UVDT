@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Predmet_Rozvrh" directorySegmentName="seg_0" id="83390135-0D0D-1CB8-A00C-82C06F9117C8">
+<createdBy>student</createdBy>
+<createdTime>2021-10-05 14:39:30 UTC</createdTime>
+<ownerDesignName>skola</ownerDesignName>
+<engineerTo>
+<item key="560ED63D-1CEC-95CD-45AA-C036466D1DA6" value="true"/>
+</engineerTo>
+<sourcePk>949DB6BF-E246-01EB-74B7-1C176181F7B6</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>je na</nameOnSource>
+<nameOnTarget>obsahuje</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>004A9702-2795-B793-D64A-C7E5B84D2129</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>91D29E77-9B7E-F0DF-D57B-97BB4DC8FF99</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

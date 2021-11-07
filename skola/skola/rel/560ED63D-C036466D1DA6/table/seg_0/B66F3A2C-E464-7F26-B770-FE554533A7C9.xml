@@ -1,0 +1,194 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B66F3A2C-E464-7F26-B770-FE554533A7C9" name="Rozvrh">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-19 14:01:56 UTC</createdTime>
+<generatorID>91D29E77-9B7E-F0DF-D57B-97BB4DC8FF99</generatorID>
+<ownerDesignName>skola</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="den" id="0CA63588-042C-D6CD-B4EA-120DCD4FD76F">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-19 14:01:56 UTC</createdTime>
+<generatorID>70F32667-1239-F13D-DBEC-1479E222CB11</generatorID>
+<ownerDesignName>skola</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hodina" id="59F0F59C-1C8D-8897-F2B4-3E9FEA6F93E5">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-19 14:01:56 UTC</createdTime>
+<generatorID>48A39105-71AC-5BF9-DD50-8D2D6D71B2F2</generatorID>
+<ownerDesignName>skola</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Osoba_id_osoby" id="0466A1F3-FCE7-2415-22D6-4E3364D6FB6D">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-19 14:01:56 UTC</createdTime>
+<generatorID>D84E6D2D-2885-F9CD-BC28-D16E4BFA8977</generatorID>
+<ownerDesignName>skola</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="938A0652-63DE-60ED-4255-392239FE1269" referredColumn="E07C94AB-31C7-3641-ACB3-8E91BB3731BD"/>
+</associations>
+</Column>
+<Column name="Venku_gps" id="E6514032-B667-8FF6-C0A1-2D2FE2372768">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-19 14:01:56 UTC</createdTime>
+<generatorID>FF476C9F-E1E9-CAE0-04D8-EA30109E5F60</generatorID>
+<ownerDesignName>skola</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DC0ED854-9AF7-B890-8EFC-D75BA09C00C6" referredColumn="E384464A-A53B-5B06-2E80-6C8EAA6E4E4E"/>
+</associations>
+</Column>
+<Column name="Uvnitr_mistnost" id="F9BA6FAD-C88C-346B-31FA-A1170B992B1C">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-19 14:01:56 UTC</createdTime>
+<generatorID>609AB680-ECDB-0ACC-915E-39F277240BB1</generatorID>
+<ownerDesignName>skola</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5E9FCC6B-8C81-C1D5-FB4A-CAD765BB6FEA" referredColumn="CB3347DA-A829-5430-978F-869F59869B96"/>
+</associations>
+</Column>
+<Column name="Skupina_kod" id="15DBA3DF-310A-D20B-7664-2C65D2F24CA2">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-19 14:01:56 UTC</createdTime>
+<generatorID>D544794B-3018-AA6E-33CA-9A7F4FC3E8F9</generatorID>
+<ownerDesignName>skola</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DC5DC111-F9BE-5AC2-74C6-C6D272956398" referredColumn="EFD971A1-857B-12D5-C4D9-878BA13ED06E"/>
+</associations>
+</Column>
+<Column name="Predmet_kod" id="0DD2FCA4-17C9-9647-36D0-69B803E45D83">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-19 14:01:56 UTC</createdTime>
+<generatorID>CC185F81-FE04-94DA-4BDB-97E94F248C7A</generatorID>
+<ownerDesignName>skola</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="30161199-96D6-8730-9306-1CC06775A4C5" referredColumn="60BA7C79-5F6F-091F-5E16-396637E7851D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AB07A666-06ED-A521-CECB-90E04A2708CC" name="Rozvrh_PK">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-19 14:01:56 UTC</createdTime>
+<generatorID>F8406733-6814-E2CF-E119-484940CA5C55</generatorID>
+<ownerDesignName>skola</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0466A1F3-FCE7-2415-22D6-4E3364D6FB6D"/>
+<colUsage columnID="0CA63588-042C-D6CD-B4EA-120DCD4FD76F"/>
+<colUsage columnID="59F0F59C-1C8D-8897-F2B4-3E9FEA6F93E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7ACE479E-185C-2E9C-F7D3-890040D81611" name="Rozvrh__IDX">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-19 14:22:22 UTC</createdTime>
+<ownerDesignName>skola</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0CA63588-042C-D6CD-B4EA-120DCD4FD76F"/>
+<colUsage columnID="59F0F59C-1C8D-8897-F2B4-3E9FEA6F93E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EC5307BD-B082-18BC-B7CF-CDEC45B50330" name="Rozvrh_Predmet_FK">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-19 14:01:56 UTC</createdTime>
+<generatorID>83390135-0D0D-1CB8-A00C-82C06F9117C8</generatorID>
+<ownerDesignName>skola</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0DD2FCA4-17C9-9647-36D0-69B803E45D83"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C995800C-F127-882B-E068-6A93B378BB61" name="Rozvrh_Skupina_FK">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-19 14:01:56 UTC</createdTime>
+<generatorID>F7B31102-A47F-A60D-0908-579DFF30AA5B</generatorID>
+<ownerDesignName>skola</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="15DBA3DF-310A-D20B-7664-2C65D2F24CA2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DCF532B0-1E49-2071-64E6-7B7A41573031" name="Rozvrh_Osoba_FK">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-19 14:01:56 UTC</createdTime>
+<generatorID>9BC8A2D1-6579-9F42-B9CF-9CE8CF73202D</generatorID>
+<ownerDesignName>skola</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0466A1F3-FCE7-2415-22D6-4E3364D6FB6D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="24953549-A150-E295-B021-9315FCA8F51A" name="Rozvrh_Uvnitr_FK">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-19 14:01:56 UTC</createdTime>
+<generatorID>9CE8A9B0-B47C-641C-0814-4FD5CF2A7A57</generatorID>
+<ownerDesignName>skola</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F9BA6FAD-C88C-346B-31FA-A1170B992B1C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F08B4441-86AF-4326-FD28-A15D02FD756B" name="Rozvrh_Venku_FK">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-19 14:01:56 UTC</createdTime>
+<generatorID>135406D7-C051-53F1-AED3-29380A997413</generatorID>
+<ownerDesignName>skola</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E6514032-B667-8FF6-C0A1-2D2FE2372768"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5E9FCC6B-8C81-C1D5-FB4A-CAD765BB6FEA" containerWithKeyObject="B66F3A2C-E464-7F26-B770-FE554533A7C9" localFKIndex="24953549-A150-E295-B021-9315FCA8F51A" name="Rozvrh_Uvnitr_FK">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-19 14:01:56 UTC</createdTime>
+<generatorID>9CE8A9B0-B47C-641C-0814-4FD5CF2A7A57</generatorID>
+<ownerDesignName>skola</ownerDesignName>
+<referredTableLongName>Uvnitr</referredTableLongName>
+<arc>7D3B6896-47E6-9673-11E9-CF1F98805A4B</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>53FA3239-463B-AEE0-1E71-40838A43167D</referredTableID>
+<keyObject>892703DD-3FFC-AFBE-D40D-0DB6C2B229FC</keyObject>
+<referredKeyID>892703DD-3FFC-AFBE-D40D-0DB6C2B229FC</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>mistnost</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

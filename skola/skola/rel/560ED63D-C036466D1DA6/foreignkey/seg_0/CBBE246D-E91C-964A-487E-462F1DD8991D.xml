@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CBBE246D-E91C-964A-487E-462F1DD8991D" containerWithKeyObject="29B76C03-6232-C770-ECA8-86F1CFE52EF9" localFKIndex="953FAAEE-E70D-2013-0F2B-2016D3B5A7C8" name="Osoba_Skupina_FK">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-19 14:01:56 UTC</createdTime>
+<generatorID>FDB9025E-5B61-3D2E-C6A7-7CD29627B316</generatorID>
+<ownerDesignName>skola</ownerDesignName>
+<referredTableLongName>Skupina</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>19FE32AA-765F-90A9-665B-E0AE03D93163</referredTableID>
+<keyObject>F3BE5831-9B75-D3D3-FA8E-8355E932C494</keyObject>
+<referredKeyID>F3BE5831-9B75-D3D3-FA8E-8355E932C494</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>kod</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

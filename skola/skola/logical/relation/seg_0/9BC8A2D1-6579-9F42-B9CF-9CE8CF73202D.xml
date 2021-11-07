@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Ucitel_Rozvrh" directorySegmentName="seg_0" id="9BC8A2D1-6579-9F42-B9CF-9CE8CF73202D">
+<createdBy>student</createdBy>
+<createdTime>2021-10-05 14:25:36 UTC</createdTime>
+<ownerDesignName>skola</ownerDesignName>
+<engineerTo>
+<item key="560ED63D-1CEC-95CD-45AA-C036466D1DA6" value="true"/>
+</engineerTo>
+<sourcePk>23A9DA82-8DC3-CFAE-51BF-1F1568548B4B</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>vyučuje</nameOnSource>
+<nameOnTarget>je vyučována</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B0399244-C451-F1C0-4D2A-E5A5B186682C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>91D29E77-9B7E-F0DF-D57B-97BB4DC8FF99</targetEntity>
+<transferable>true</transferable>
+</Relation>

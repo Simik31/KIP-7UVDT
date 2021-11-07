@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F1FD8A7C-13BF-85D8-95CC-DA3CB5986891" name="Predmet">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-19 14:01:56 UTC</createdTime>
+<generatorID>004A9702-2795-B793-D64A-C7E5B84D2129</generatorID>
+<ownerDesignName>skola</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="kod" id="60BA7C79-5F6F-091F-5E16-396637E7851D">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-19 14:01:56 UTC</createdTime>
+<generatorID>94203B23-D3E2-E83B-4BCE-14A7BEBA2A23</generatorID>
+<ownerDesignName>skola</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nazev" id="FB895230-1367-F020-A920-339DBBA67215">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-19 14:01:56 UTC</createdTime>
+<generatorID>0FBBADBF-0FE3-3075-7034-D61F48A0E422</generatorID>
+<ownerDesignName>skola</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kredity" id="5A00C80F-0AB2-621B-B5A5-03D22953B944">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-19 14:01:56 UTC</createdTime>
+<generatorID>302A657E-BE4A-A53C-5DE6-F942218926E4</generatorID>
+<ownerDesignName>skola</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="429F5484-9F3C-5334-0037-D7F46FE85198">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-19 14:01:56 UTC</createdTime>
+<generatorID>8E92C474-5D2A-1833-3492-A7D1D3FF9AD9</generatorID>
+<ownerDesignName>skola</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sylabus" id="D4A0F209-AD59-5997-FFCF-AF47F3A0CA08">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-19 14:01:56 UTC</createdTime>
+<generatorID>9F7CECD2-34CE-3991-1112-D202CE36DB4B</generatorID>
+<ownerDesignName>skola</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Osoba_id_osoby" id="41379B7D-9177-4728-C79D-1DE73D219865">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-19 14:01:56 UTC</createdTime>
+<generatorID>DFB45728-3246-6710-85CF-D49543B40A6F</generatorID>
+<ownerDesignName>skola</ownerDesignName>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AFB36B05-0226-6168-D09D-C48B392021BA" referredColumn="E07C94AB-31C7-3641-ACB3-8E91BB3731BD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BD0C7BF8-FD61-5D94-D64B-F5A383FB31F2" name="Predmet_PK">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-19 14:01:56 UTC</createdTime>
+<generatorID>949DB6BF-E246-01EB-74B7-1C176181F7B6</generatorID>
+<ownerDesignName>skola</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="60BA7C79-5F6F-091F-5E16-396637E7851D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2D5BAE45-61C2-58B0-2D50-32FFF37ECC47" name="Predmet_Osoba_FK">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-19 14:01:56 UTC</createdTime>
+<generatorID>E3501454-B55F-D1B0-B880-50AF96832E68</generatorID>
+<ownerDesignName>skola</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="41379B7D-9177-4728-C79D-1DE73D219865"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

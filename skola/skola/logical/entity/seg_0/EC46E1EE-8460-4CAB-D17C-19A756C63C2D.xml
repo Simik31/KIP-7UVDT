@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EC46E1EE-8460-4CAB-D17C-19A756C63C2D" name="Osoba">
+<createdBy>student</createdBy>
+<createdTime>2021-10-05 13:55:21 UTC</createdTime>
+<ownerDesignName>skola</ownerDesignName>
+<engineerTo>
+<item key="560ED63D-1CEC-95CD-45AA-C036466D1DA6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_osoby" id="8C05EDE1-C656-D2E9-4D52-8C2DF82D802F">
+<createdBy>student</createdBy>
+<createdTime>2021-10-05 13:57:14 UTC</createdTime>
+<ownerDesignName>skola</ownerDesignName>
+<engineerTo>
+<item key="560ED63D-1CEC-95CD-45AA-C036466D1DA6" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="jmeno" id="26C249B3-BEE6-DBB3-0A6A-589133B3CBE9">
+<createdBy>student</createdBy>
+<createdTime>2021-10-05 13:57:26 UTC</createdTime>
+<ownerDesignName>skola</ownerDesignName>
+<engineerTo>
+<item key="560ED63D-1CEC-95CD-45AA-C036466D1DA6" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="prijmeni" id="41A0AA97-7845-C2AB-B0F3-BAACE18B6A2F">
+<createdBy>student</createdBy>
+<createdTime>2021-10-05 13:58:17 UTC</createdTime>
+<ownerDesignName>skola</ownerDesignName>
+<engineerTo>
+<item key="560ED63D-1CEC-95CD-45AA-C036466D1DA6" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="adresa" id="CE0E36BA-EFA1-AC5A-1B5F-67834E5473AF">
+<createdBy>student</createdBy>
+<createdTime>2021-10-05 13:58:32 UTC</createdTime>
+<commentInRDBMS><![CDATA[složený atribut]]></commentInRDBMS>
+<ownerDesignName>skola</ownerDesignName>
+<engineerTo>
+<item key="560ED63D-1CEC-95CD-45AA-C036466D1DA6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kontakt" id="D3F0F734-459D-9D1D-48CA-03A2F261EE72">
+<createdBy>student</createdBy>
+<createdTime>2021-10-05 13:59:07 UTC</createdTime>
+<commentInRDBMS><![CDATA[vícehodnotový atribut]]></commentInRDBMS>
+<ownerDesignName>skola</ownerDesignName>
+<engineerTo>
+<item key="560ED63D-1CEC-95CD-45AA-C036466D1DA6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="23A9DA82-8DC3-CFAE-51BF-1F1568548B4B" name="Student PK">
+<createdBy>student</createdBy>
+<createdTime>2021-10-05 13:57:41 UTC</createdTime>
+<ownerDesignName>skola</ownerDesignName>
+<engineerTo>
+<item key="560ED63D-1CEC-95CD-45AA-C036466D1DA6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8C05EDE1-C656-D2E9-4D52-8C2DF82D802F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

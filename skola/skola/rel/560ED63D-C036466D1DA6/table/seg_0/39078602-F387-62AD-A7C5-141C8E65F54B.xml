@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="39078602-F387-62AD-A7C5-141C8E65F54B" name="Venku">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-19 14:01:56 UTC</createdTime>
+<generatorID>7585D0E4-5CB2-D94B-A048-42C5C279A7FE</generatorID>
+<ownerDesignName>skola</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="gps" id="E384464A-A53B-5B06-2E80-6C8EAA6E4E4E">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-19 14:01:56 UTC</createdTime>
+<generatorID>E7268BFB-DDA7-4DF0-5EBF-568803286E7B</generatorID>
+<ownerDesignName>skola</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="lokalita" id="51C71507-1A11-2F8E-2A5D-5BE003325B67">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-19 14:01:56 UTC</createdTime>
+<generatorID>4E924A26-F1E5-1CFB-D7DA-68856EAA46D9</generatorID>
+<ownerDesignName>skola</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ciselnik_Mesto" id="CAC8D05F-BDE7-C5A6-44B1-44F7D9213C12">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-19 14:18:45 UTC</createdTime>
+<ownerDesignName>skola</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7C8B939C-9E1D-E584-E48C-DE5B9284356B" referredColumn="2E8CEAEB-F1D0-18CB-57F8-5CBD2649CDB3"/>
+</associations>
+</Column>
+<Column name="ciselnik_ulice" id="FDDD16FB-AD2C-11EA-8240-047598032178">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-19 14:18:45 UTC</createdTime>
+<ownerDesignName>skola</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7C8B939C-9E1D-E584-E48C-DE5B9284356B" referredColumn="4C0D9599-99B1-CCA2-59A3-B0DD55D7520C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7F57DC2D-DA6E-4CC2-B889-5C22E187DEBE" name="Venku_PK">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-19 14:01:56 UTC</createdTime>
+<generatorID>6606BCAD-3083-82C0-AF6B-89C1B7C88721</generatorID>
+<ownerDesignName>skola</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E384464A-A53B-5B06-2E80-6C8EAA6E4E4E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D3F43C85-B238-483E-1296-D90ED870A50C" name="Venku_ciselnik_FK">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-19 14:18:45 UTC</createdTime>
+<ownerDesignName>skola</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CAC8D05F-BDE7-C5A6-44B1-44F7D9213C12"/>
+<colUsage columnID="FDDD16FB-AD2C-11EA-8240-047598032178"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

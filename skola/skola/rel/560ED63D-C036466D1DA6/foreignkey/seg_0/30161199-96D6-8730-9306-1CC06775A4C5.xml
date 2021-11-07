@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="30161199-96D6-8730-9306-1CC06775A4C5" containerWithKeyObject="B66F3A2C-E464-7F26-B770-FE554533A7C9" localFKIndex="EC5307BD-B082-18BC-B7CF-CDEC45B50330" name="Rozvrh_Predmet_FK">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-19 14:01:56 UTC</createdTime>
+<generatorID>83390135-0D0D-1CB8-A00C-82C06F9117C8</generatorID>
+<ownerDesignName>skola</ownerDesignName>
+<referredTableLongName>Predmet</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>F1FD8A7C-13BF-85D8-95CC-DA3CB5986891</referredTableID>
+<keyObject>BD0C7BF8-FD61-5D94-D64B-F5A383FB31F2</keyObject>
+<referredKeyID>BD0C7BF8-FD61-5D94-D64B-F5A383FB31F2</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>kod</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

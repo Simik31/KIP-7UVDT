@@ -1,0 +1,12 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKArc class="oracle.dbtools.crest.model.design.relational.FKArc" directorySegmentName="seg_0" id="7D3B6896-47E6-9673-11E9-CF1F98805A4B" name="Arc_1">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-19 14:01:56 UTC</createdTime>
+<ownerDesignName>skola</ownerDesignName>
+<mandatory>true</mandatory>
+<table>B66F3A2C-E464-7F26-B770-FE554533A7C9</table>
+<fkeys>
+<fkeyID>DC0ED854-9AF7-B890-8EFC-D75BA09C00C6</fkeyID>
+<fkeyID>5E9FCC6B-8C81-C1D5-FB4A-CAD765BB6FEA</fkeyID>
+</fkeys>
+</FKArc>

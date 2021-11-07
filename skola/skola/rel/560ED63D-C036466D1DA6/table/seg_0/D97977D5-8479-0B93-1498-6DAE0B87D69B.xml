@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D97977D5-8479-0B93-1498-6DAE0B87D69B" name="kontakt">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-19 14:05:13 UTC</createdTime>
+<ownerDesignName>skola</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="typ_kontaktu" id="5EF42067-771C-4E01-6CEE-92F9FE79DEA9">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-19 14:05:36 UTC</createdTime>
+<ownerDesignName>skola</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kontakt" id="509E23E2-41C2-0C68-3FB0-D670527EC1C9">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-19 14:05:44 UTC</createdTime>
+<ownerDesignName>skola</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Osoba_id_osoby" id="1D9C9CCB-1588-D81F-83D9-F0A0DE0D0E8D">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-19 14:06:24 UTC</createdTime>
+<ownerDesignName>skola</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F6A5A1BF-F4BE-364F-B4E4-4049DCCD04F0" referredColumn="E07C94AB-31C7-3641-ACB3-8E91BB3731BD"/>
+</associations>
+</Column>
+<Column name="id" id="F9F15CE6-356F-A5F3-99AF-293337E92575">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-19 14:08:21 UTC</createdTime>
+<ownerDesignName>skola</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="70322830-1140-8B74-1CDE-3FA8139689CF" name="kontakt_PK">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-19 14:08:21 UTC</createdTime>
+<ownerDesignName>skola</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F9F15CE6-356F-A5F3-99AF-293337E92575"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="70AE9A6C-D5AB-584A-F482-AD24BACB21A4" name="kontakt_Osoba_FK">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-19 14:06:24 UTC</createdTime>
+<generatorID>23A9DA82-8DC3-CFAE-51BF-1F1568548B4B</generatorID>
+<ownerDesignName>skola</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D9C9CCB-1588-D81F-83D9-F0A0DE0D0E8D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

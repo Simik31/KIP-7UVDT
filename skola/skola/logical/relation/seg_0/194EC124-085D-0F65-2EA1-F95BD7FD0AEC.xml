@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Predmet_Kniha" directorySegmentName="seg_0" id="194EC124-085D-0F65-2EA1-F95BD7FD0AEC">
+<createdBy>student</createdBy>
+<createdTime>2021-10-05 14:50:32 UTC</createdTime>
+<ownerDesignName>skola</ownerDesignName>
+<engineerTo>
+<item key="560ED63D-1CEC-95CD-45AA-C036466D1DA6" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>má doporučenou</nameOnSource>
+<nameOnTarget>je doporučena</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>004A9702-2795-B793-D64A-C7E5B84D2129</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BF365110-80B4-5FD3-7B53-16792C8360D6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

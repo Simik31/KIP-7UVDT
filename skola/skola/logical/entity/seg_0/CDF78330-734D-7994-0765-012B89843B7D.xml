@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CDF78330-734D-7994-0765-012B89843B7D" name="Student">
+<createdBy>student</createdBy>
+<createdTime>2021-10-05 14:02:30 UTC</createdTime>
+<ownerDesignName>skola</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="560ED63D-1CEC-95CD-45AA-C036466D1DA6" value="false"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>EC46E1EE-8460-4CAB-D17C-19A756C63C2D</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="obor" id="C47F34C4-D62F-F969-3735-9C608C8D63A0">
+<createdBy>student</createdBy>
+<createdTime>2021-10-05 14:02:56 UTC</createdTime>
+<commentInRDBMS>složený atribut</commentInRDBMS>
+<ownerDesignName>skola</ownerDesignName>
+<engineerTo>
+<item key="560ED63D-1CEC-95CD-45AA-C036466D1DA6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rocnik" id="ED96AB7D-9DC4-656A-6759-2535D95CABE3">
+<createdBy>student</createdBy>
+<createdTime>2021-10-05 14:03:41 UTC</createdTime>
+<ownerDesignName>skola</ownerDesignName>
+<engineerTo>
+<item key="560ED63D-1CEC-95CD-45AA-C036466D1DA6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kod" id="B5EEFDB5-B626-12D3-1B7D-C889B6A0D8C9">
+<createdBy>student</createdBy>
+<createdTime>2021-10-05 14:21:12 UTC</createdTime>
+<generatorID>FDB9025E-5B61-3D2E-C6A7-7CD29627B316</generatorID>
+<ownerDesignName>skola</ownerDesignName>
+<engineerTo>
+<item key="560ED63D-1CEC-95CD-45AA-C036466D1DA6" value="true"/>
+</engineerTo>
+<referedAttribute>511E7CA8-FD33-C23D-FF59-5365B8C43DB5</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

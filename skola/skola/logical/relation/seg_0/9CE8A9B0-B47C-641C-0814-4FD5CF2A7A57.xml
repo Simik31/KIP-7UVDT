@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Uvnitr_Rozvrh" directorySegmentName="seg_0" id="9CE8A9B0-B47C-641C-0814-4FD5CF2A7A57">
+<createdBy>student</createdBy>
+<createdTime>2021-10-05 14:34:39 UTC</createdTime>
+<ownerDesignName>skola</ownerDesignName>
+<engineerTo>
+<item key="560ED63D-1CEC-95CD-45AA-C036466D1DA6" value="true"/>
+</engineerTo>
+<sourcePk>5F1DCAE7-9802-3EA0-0B52-3AC459AD5B64</sourcePk>
+<arc>0D2F1F3A-D9A5-7C75-A3B4-1248628B762B</arc>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E5736AB0-DF6A-D7B6-D349-FC02C2FF7665</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>91D29E77-9B7E-F0DF-D57B-97BB4DC8FF99</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

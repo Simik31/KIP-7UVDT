@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BF365110-80B4-5FD3-7B53-16792C8360D6" name="Kniha">
+<createdBy>student</createdBy>
+<createdTime>2021-10-05 14:47:23 UTC</createdTime>
+<ownerDesignName>skola</ownerDesignName>
+<engineerTo>
+<item key="560ED63D-1CEC-95CD-45AA-C036466D1DA6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="isbn" id="F71F784B-9A39-DFCC-0C14-4D6D0C92F955">
+<createdBy>student</createdBy>
+<createdTime>2021-10-05 14:47:31 UTC</createdTime>
+<ownerDesignName>skola</ownerDesignName>
+<engineerTo>
+<item key="560ED63D-1CEC-95CD-45AA-C036466D1DA6" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nazev" id="A0D8A9CF-49C6-096F-7627-DAA3012A0FCE">
+<createdBy>student</createdBy>
+<createdTime>2021-10-05 14:48:56 UTC</createdTime>
+<ownerDesignName>skola</ownerDesignName>
+<engineerTo>
+<item key="560ED63D-1CEC-95CD-45AA-C036466D1DA6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="autor" id="C75EADAB-F741-C61E-BF91-7511D8841437">
+<createdBy>student</createdBy>
+<createdTime>2021-10-05 14:49:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[složený, vícehodnotový atribut]]></commentInRDBMS>
+<ownerDesignName>skola</ownerDesignName>
+<engineerTo>
+<item key="560ED63D-1CEC-95CD-45AA-C036466D1DA6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="99262A81-860E-578A-93ED-39E579BB4363" name="Kniha PK">
+<createdBy>student</createdBy>
+<createdTime>2021-10-05 14:48:54 UTC</createdTime>
+<ownerDesignName>skola</ownerDesignName>
+<engineerTo>
+<item key="560ED63D-1CEC-95CD-45AA-C036466D1DA6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F71F784B-9A39-DFCC-0C14-4D6D0C92F955</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

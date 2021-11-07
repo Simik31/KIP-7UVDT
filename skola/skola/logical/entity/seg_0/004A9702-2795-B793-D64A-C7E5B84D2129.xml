@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="004A9702-2795-B793-D64A-C7E5B84D2129" name="Predmet">
+<createdBy>student</createdBy>
+<createdTime>2021-10-05 14:06:01 UTC</createdTime>
+<ownerDesignName>skola</ownerDesignName>
+<engineerTo>
+<item key="560ED63D-1CEC-95CD-45AA-C036466D1DA6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="kod" id="94203B23-D3E2-E83B-4BCE-14A7BEBA2A23">
+<createdBy>student</createdBy>
+<createdTime>2021-10-05 14:06:09 UTC</createdTime>
+<ownerDesignName>skola</ownerDesignName>
+<engineerTo>
+<item key="560ED63D-1CEC-95CD-45AA-C036466D1DA6" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nazev" id="0FBBADBF-0FE3-3075-7034-D61F48A0E422">
+<createdBy>student</createdBy>
+<createdTime>2021-10-05 14:06:22 UTC</createdTime>
+<ownerDesignName>skola</ownerDesignName>
+<engineerTo>
+<item key="560ED63D-1CEC-95CD-45AA-C036466D1DA6" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kredity" id="302A657E-BE4A-A53C-5DE6-F942218926E4">
+<createdBy>student</createdBy>
+<createdTime>2021-10-05 14:06:29 UTC</createdTime>
+<ownerDesignName>skola</ownerDesignName>
+<engineerTo>
+<item key="560ED63D-1CEC-95CD-45AA-C036466D1DA6" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status" id="8E92C474-5D2A-1833-3492-A7D1D3FF9AD9">
+<createdBy>student</createdBy>
+<createdTime>2021-10-05 14:06:38 UTC</createdTime>
+<ownerDesignName>skola</ownerDesignName>
+<engineerTo>
+<item key="560ED63D-1CEC-95CD-45AA-C036466D1DA6" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sylabus" id="9F7CECD2-34CE-3991-1112-D202CE36DB4B">
+<createdBy>student</createdBy>
+<createdTime>2021-10-05 14:06:52 UTC</createdTime>
+<ownerDesignName>skola</ownerDesignName>
+<engineerTo>
+<item key="560ED63D-1CEC-95CD-45AA-C036466D1DA6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_osoby" id="DFB45728-3246-6710-85CF-D49543B40A6F">
+<createdBy>student</createdBy>
+<createdTime>2021-10-05 14:08:58 UTC</createdTime>
+<generatorID>E3501454-B55F-D1B0-B880-50AF96832E68</generatorID>
+<ownerDesignName>skola</ownerDesignName>
+<engineerTo>
+<item key="560ED63D-1CEC-95CD-45AA-C036466D1DA6" value="true"/>
+</engineerTo>
+<referedAttribute>8C05EDE1-C656-D2E9-4D52-8C2DF82D802F</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="949DB6BF-E246-01EB-74B7-1C176181F7B6" name="Predmet PK">
+<createdBy>student</createdBy>
+<createdTime>2021-10-05 14:06:14 UTC</createdTime>
+<ownerDesignName>skola</ownerDesignName>
+<engineerTo>
+<item key="560ED63D-1CEC-95CD-45AA-C036466D1DA6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>94203B23-D3E2-E83B-4BCE-14A7BEBA2A23</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

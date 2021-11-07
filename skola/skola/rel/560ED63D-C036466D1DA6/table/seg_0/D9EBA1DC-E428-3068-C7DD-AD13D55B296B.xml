@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D9EBA1DC-E428-3068-C7DD-AD13D55B296B" name="Rozpis_akrobaci">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-19 14:08:48 UTC</createdTime>
+<ownerDesignName>skola</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Osoba_id_osoby" id="61911328-CE62-FBF6-A7F4-DCEA3C77D34D">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-19 14:09:15 UTC</createdTime>
+<ownerDesignName>skola</ownerDesignName>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CFD6A3BF-5E10-0206-C641-DEDD0239C56D" referredColumn="E07C94AB-31C7-3641-ACB3-8E91BB3731BD"/>
+</associations>
+</Column>
+<Column name="akrobace_id" id="F0000B81-ECD9-788D-33D1-770EDC81FD28">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-19 14:09:22 UTC</createdTime>
+<ownerDesignName>skola</ownerDesignName>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="97A1B4A1-4E60-8317-5053-0FF0BFDE4F30" referredColumn="CF50CF93-72DD-A21D-4E09-FC849C26689F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CE165B2B-BCB8-FF25-F3EF-5B2C03556F7C" name="Rozpis_akrobaci_PK">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-19 14:10:03 UTC</createdTime>
+<ownerDesignName>skola</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="61911328-CE62-FBF6-A7F4-DCEA3C77D34D"/>
+<colUsage columnID="F0000B81-ECD9-788D-33D1-770EDC81FD28"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6539C088-44BF-5715-CC0F-BE711A9B2DA2" name="Rozpis_akrobaci_Osoba_FK">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-19 14:09:15 UTC</createdTime>
+<generatorID>23A9DA82-8DC3-CFAE-51BF-1F1568548B4B</generatorID>
+<ownerDesignName>skola</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="61911328-CE62-FBF6-A7F4-DCEA3C77D34D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2DEB1844-BBEC-2FC1-2E02-48D9E124B86D" name="Rozpis_akrobaci_akrobace_FK">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-19 14:09:22 UTC</createdTime>
+<ownerDesignName>skola</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F0000B81-ECD9-788D-33D1-770EDC81FD28"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

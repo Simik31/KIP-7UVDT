@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E87090AA-1F38-CB71-0460-23896B51889F" name="rozpis_autoru">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-19 14:12:14 UTC</createdTime>
+<ownerDesignName>skola</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Kniha_isbn" id="7E478CD9-0409-8C82-8F5F-D4468BEE7247">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-19 14:12:29 UTC</createdTime>
+<ownerDesignName>skola</ownerDesignName>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A60C5693-C6CD-0A43-95F8-97FE8F895F3E" referredColumn="421F58E6-A69B-A975-24F3-F2771CBAC9FC"/>
+</associations>
+</Column>
+<Column name="autor_id_autora" id="6580C468-37B9-28B2-34A7-B283089624B2">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-19 14:12:35 UTC</createdTime>
+<ownerDesignName>skola</ownerDesignName>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="286DD673-5F3F-DC67-232F-7FE1BF6C558C" referredColumn="36660422-6D56-796B-B12B-B9B8B6B1FB4A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2ABF0563-336E-008C-9EEE-8A6EFD2630F3" name="rozpis_autoru_PK">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-19 14:12:44 UTC</createdTime>
+<ownerDesignName>skola</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7E478CD9-0409-8C82-8F5F-D4468BEE7247"/>
+<colUsage columnID="6580C468-37B9-28B2-34A7-B283089624B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="530FAF31-A143-8A92-9A8A-184584C66509" name="rozpis_autoru_Kniha_FK">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-19 14:12:29 UTC</createdTime>
+<generatorID>99262A81-860E-578A-93ED-39E579BB4363</generatorID>
+<ownerDesignName>skola</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7E478CD9-0409-8C82-8F5F-D4468BEE7247"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1423415B-C2A8-F0FA-AF55-3E200E1C0783" name="rozpis_autoru_autor_FK">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-19 14:12:35 UTC</createdTime>
+<ownerDesignName>skola</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6580C468-37B9-28B2-34A7-B283089624B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

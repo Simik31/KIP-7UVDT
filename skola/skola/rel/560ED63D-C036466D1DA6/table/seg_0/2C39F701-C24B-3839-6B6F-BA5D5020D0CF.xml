@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2C39F701-C24B-3839-6B6F-BA5D5020D0CF" name="ciselnik">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-19 14:16:18 UTC</createdTime>
+<ownerDesignName>skola</ownerDesignName>
+<ordsAlias>table_14</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Mesto" id="2E8CEAEB-F1D0-18CB-57F8-5CBD2649CDB3">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-19 14:16:59 UTC</createdTime>
+<ownerDesignName>skola</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ulice" id="4C0D9599-99B1-CCA2-59A3-B0DD55D7520C">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-19 14:16:59 UTC</createdTime>
+<ownerDesignName>skola</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cisle_domu" id="7911EAC0-262B-F89B-FFEE-81CB541125BE">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-19 14:16:59 UTC</createdTime>
+<ownerDesignName>skola</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="psc" id="8469E2F4-7625-BA92-6E1C-9E97BD4FBDDC">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-19 14:16:59 UTC</createdTime>
+<ownerDesignName>skola</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FD57D6FF-52AD-40D2-F6F5-8F940B8FE439" name="ciselnik_PK">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-19 14:16:59 UTC</createdTime>
+<ownerDesignName>skola</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2E8CEAEB-F1D0-18CB-57F8-5CBD2649CDB3"/>
+<colUsage columnID="4C0D9599-99B1-CCA2-59A3-B0DD55D7520C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7585D0E4-5CB2-D94B-A048-42C5C279A7FE" name="Venku">
+<createdBy>student</createdBy>
+<createdTime>2021-10-05 14:30:43 UTC</createdTime>
+<ownerDesignName>skola</ownerDesignName>
+<engineerTo>
+<item key="560ED63D-1CEC-95CD-45AA-C036466D1DA6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="gps" id="E7268BFB-DDA7-4DF0-5EBF-568803286E7B">
+<createdBy>student</createdBy>
+<createdTime>2021-10-05 14:30:53 UTC</createdTime>
+<ownerDesignName>skola</ownerDesignName>
+<engineerTo>
+<item key="560ED63D-1CEC-95CD-45AA-C036466D1DA6" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="adresu" id="A39DDF5F-6DE8-2554-0DD6-455ED4F506F6">
+<createdBy>student</createdBy>
+<createdTime>2021-10-05 14:31:04 UTC</createdTime>
+<commentInRDBMS><![CDATA[složený atribut]]></commentInRDBMS>
+<ownerDesignName>skola</ownerDesignName>
+<engineerTo>
+<item key="560ED63D-1CEC-95CD-45AA-C036466D1DA6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="lokalita" id="4E924A26-F1E5-1CFB-D7DA-68856EAA46D9">
+<createdBy>student</createdBy>
+<createdTime>2021-10-05 14:31:24 UTC</createdTime>
+<ownerDesignName>skola</ownerDesignName>
+<engineerTo>
+<item key="560ED63D-1CEC-95CD-45AA-C036466D1DA6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6606BCAD-3083-82C0-AF6B-89C1B7C88721" name="Venku PK">
+<createdBy>student</createdBy>
+<createdTime>2021-10-05 14:31:02 UTC</createdTime>
+<ownerDesignName>skola</ownerDesignName>
+<engineerTo>
+<item key="560ED63D-1CEC-95CD-45AA-C036466D1DA6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E7268BFB-DDA7-4DF0-5EBF-568803286E7B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

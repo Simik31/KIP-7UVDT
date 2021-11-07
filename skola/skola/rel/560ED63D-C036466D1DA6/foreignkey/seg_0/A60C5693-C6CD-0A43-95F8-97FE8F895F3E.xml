@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A60C5693-C6CD-0A43-95F8-97FE8F895F3E" containerWithKeyObject="E87090AA-1F38-CB71-0460-23896B51889F" localFKIndex="530FAF31-A143-8A92-9A8A-184584C66509" name="rozpis_autoru_Kniha_FK">
+<createdBy>Student</createdBy>
+<createdTime>2021-10-19 14:12:29 UTC</createdTime>
+<generatorID>99262A81-860E-578A-93ED-39E579BB4363</generatorID>
+<ownerDesignName>skola</ownerDesignName>
+<referredTableLongName>Kniha</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B4C986CA-56FF-59C6-1731-72558430BC68</referredTableID>
+<keyObject>CF2B04DF-D391-BC4C-9787-59ACA0200396</keyObject>
+<referredKeyID>CF2B04DF-D391-BC4C-9787-59ACA0200396</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>isbn</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
